@@ -1,7 +1,41 @@
-body{
-    background-color: hsl(213, 19%, 18%);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+  --dark-blue: hsl(216, 12%, 8%);
+  --dark-blue-alt: hsl(213, 19%, 18%);
+  --white: hsl(0, 0%, 100%);
+  --font-size: 15px;
 }
-nav > h1{
-    color: #fff;
+
+body {
+  background-color: var(--dark-blue);
+  font-family: 'Overpass', sans-serif;
+}
+
+.star-icon > img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.star-icon {
+  background-color: var(--dark-blue-alt);
+  border-radius: 50%;
+  padding: 12px;
+  display: inline-block;
+}
+
+.feedback-request, h1 {
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.feedback-request, .rating-section, p {
+  font-size: var(--font-size);
+}
+
+.rating-section {
+  border-radius: 25px;
+  background-color: var(--dark-blue-alt);
+  margin-top: 20vh;
+  padding: 5vh;
 }
