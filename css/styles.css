@@ -11,17 +11,13 @@ body {
   background-color: var(--dark-blue);
   font-family: 'Overpass', sans-serif;
 }
-
-.star-icon > img {
-  width: 4rem;
-  height: 4rem;
-}
-
-.star-icon {
-  background-color: var(--dark-blue-alt);
+.circle {
+  background-color:hsl(217, 12%,63%,0.08);
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
-  padding: 12px;
-  display: inline-block;
+  margin-bottom: .75rem;
+  margin-top: .1rem;
 }
 
 .feedback-request, h1 {
