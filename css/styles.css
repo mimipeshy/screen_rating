@@ -14,10 +14,10 @@
   font-family: 'Overpass', sans-serif;
   color: var(--white);
 }
-/* 
+
 *[form-visible="false"] {
   display:none;
-} */
+}
 
 body {
   display: flex;
